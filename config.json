@@ -1,0 +1,9 @@
+{
+  "phonemeSimilarityThreshold": 0.65,
+  "maxCandidates": 5,
+  "sttEngines": ["gemini", "clova"],
+  "reranking": {
+    "temperature": 0,
+    "output": "selected_candidate_id"
+  }
+}

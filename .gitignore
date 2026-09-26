@@ -1,0 +1,6 @@
+# 비밀키와 원음은 저장소에 올리지 않습니다.
+.env
+node_modules/
+data/audio/*
+!data/audio/.gitkeep
+.DS_Store

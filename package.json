@@ -1,0 +1,17 @@
+{
+  "name": "cog-postproc-stt",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "stt": "node src/run-stt.js",
+    "candidates": "node src/build-candidates.js",
+    "rerank": "node src/rerank.js",
+    "evaluate": "node src/evaluate.js",
+    "report": "node src/export-report.js"
+  },
+  "dependencies": {
+    "csv-parse": "^5.6.0",
+    "dotenv": "^16.4.7"
+  }
+}
